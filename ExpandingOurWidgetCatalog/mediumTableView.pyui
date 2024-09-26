@@ -1,0 +1,174 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 56}, {299, 411}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "5E8B256D-39B7-45D4-A348-A7C927D8EA5E",
+          "editing" : false,
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "frame" : "{{22, 178}, {200, 200}}",
+          "data_source_items" : "Row 1\nRow 2\nRow 3",
+          "data_source_number_of_lines" : 1,
+          "data_source_move_enabled" : true,
+          "data_source_delete_enabled" : true,
+          "data_source_font_size" : 18,
+          "row_height" : 44,
+          "class" : "TableView",
+          "name" : "fanTable",
+          "flex" : "WHLRB"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 564}, {36, 36}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "RT",
+          "action" : "newFan",
+          "image_name" : "iob:ios7_plus_empty_256",
+          "frame" : "{{82, 262}, {80, 32}}",
+          "title" : "",
+          "uuid" : "7ABB983B-184D-4F52-8192-2475BB97F4E0",
+          "class" : "Button",
+          "font_size" : 15,
+          "name" : "editTable"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {293, 42}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "font_size" : 28,
+          "frame" : "{{47, 262}, {150, 32}}",
+          "uuid" : "7F94D2EB-5B8E-41DF-A2E5-068F76FC1C84",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Python Library Fan Club",
+          "name" : "label1",
+          "font_name" : "AcademyEngravedLetPlain"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{253, 564}, {52, 36}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "saveEditRow",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "flex" : "LT",
+          "frame" : "{{47, 262}, {150, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "B9749A1D-3E8F-43EC-B696-ACD829C6A4F0",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "row",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{50, 564}, {33, 36}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "toggleEditing",
+          "flex" : "RT",
+          "name" : "button1",
+          "frame" : "{{82, 262}, {80, 32}}",
+          "title" : "Button",
+          "uuid" : "EAEBFB4C-080B-4A6B-9949-1398653F0AD9",
+          "class" : "Button",
+          "font_size" : 15,
+          "image_name" : "iob:settings_256"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{91, 564}, {37, 36}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "RT",
+          "action" : "saveList",
+          "image_name" : "iob:log_out_256",
+          "frame" : "{{82, 262}, {80, 32}}",
+          "title" : "Button",
+          "uuid" : "25AD1475-03EE-478B-9517-60C80653ADA5",
+          "class" : "Button",
+          "font_size" : 15,
+          "name" : "button2"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{136, 568}, {43, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "count",
+          "flex" : "RT",
+          "frame" : "{{81, 292}, {150, 32}}",
+          "uuid" : "29913921-9E13-4E69-8881-34B84A0BA559",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "0",
+          "font_size" : 14,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{187, 568}, {44, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label2",
+          "flex" : "RT",
+          "frame" : "{{81, 292}, {150, 32}}",
+          "uuid" : "E2206738-FA3A-4AD1-A566-C517066DD5B2",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "fans",
+          "font_size" : 15,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {311, 615}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

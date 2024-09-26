@@ -1,0 +1,194 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 19}, {319, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WLRB",
+          "name" : "addOrEdit",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "B71D4A4B-BE16-4645-9542-FD1CA23830C8",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Edit Fan",
+          "font_size" : 18,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 79}, {100, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "RB",
+          "name" : "label1",
+          "frame" : "{{91, 130}, {150, 32}}",
+          "uuid" : "4204799F-53EC-4DA1-9923-0D80868DEBAC",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "Name:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 119}, {100, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "RB",
+          "name" : "label2",
+          "frame" : "{{91, 130}, {150, 32}}",
+          "uuid" : "559FA654-5279-45D1-8A77-8DBB220A4A3F",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "Birth Date:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 159}, {100, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "RB",
+          "name" : "label3",
+          "frame" : "{{91, 130}, {150, 32}}",
+          "uuid" : "273E03B5-88E1-4480-8BB7-650D55CA931D",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "E-Mail:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{114, 79}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "First and Last",
+          "flex" : "WB",
+          "name" : "nameField",
+          "frame" : "{{66, 130}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "CF0F34F8-786B-4D79-B640-DD7B8641853C",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{114, 119}, {135, 32}}",
+        "class" : "DatePicker",
+        "attributes" : {
+          "mode" : 1,
+          "frame" : "{{6, 38}, {320, 216}}",
+          "flex" : "",
+          "class" : "DatePicker",
+          "name" : "birthdateField",
+          "uuid" : "A6605510-B5E5-4ED6-9433-F61A3AB2BE63"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{114, 159}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "userid@domain.com",
+          "flex" : "W",
+          "name" : "emailField",
+          "frame" : "{{66, 130}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "BD2283A2-4531-4B8A-9C1D-E28EC9690C0C",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{54, 208}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "FF09AADB-A26F-4EB7-85FC-37F47745E4DC",
+          "corner_radius" : 8,
+          "background_color" : "RGBA(0.833333,1.000000,1.000000,1.000000)",
+          "frame" : "{{126, 130}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.750000,1.000000,1.000000)",
+          "border_width" : 2,
+          "title" : "Save",
+          "action" : "saveFan",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "saveButton",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{169, 208}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "1D07151C-8BC1-4340-87AE-7FDAEE502C46",
+          "corner_radius" : 8,
+          "background_color" : "RGBA(1.000000,0.944444,0.777778,1.000000)",
+          "frame" : "{{126, 130}, {80, 32}}",
+          "border_color" : "RGBA(1.000000,0.555556,0.111111,1.000000)",
+          "border_width" : 2,
+          "title" : "Cancel",
+          "action" : "cancelFan",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 15
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {331, 292}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
